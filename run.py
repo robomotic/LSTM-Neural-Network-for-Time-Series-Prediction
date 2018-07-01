@@ -2,6 +2,8 @@ import lstm
 import time
 import matplotlib.pyplot as plt
 
+%matplotlib inline
+
 def plot_results(predicted_data, true_data):
     fig = plt.figure(facecolor='white')
     ax = fig.add_subplot(111)
